@@ -7,7 +7,7 @@ class Star {
         myX = (int)(Math.random() * width);
         myY = (int)(Math.random() * height);
         mySize = (int)(Math.random() * 2) + 1;
-        myBrightness = (int)(Math.random() * 156) + 100; // 100-255
+        myBrightness = (int)(Math.random() * 156) + 100;
     }
     
     public void show() {
