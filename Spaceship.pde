@@ -37,7 +37,7 @@ class Spaceship extends Floater {
         myPointDirection = Math.random() * 360;
     }
     
-    // Getter methods for collision detection
+    // Getter methods for Bullet constructor
     double getCenterX() {
         return myCenterX;
     }
@@ -45,4 +45,18 @@ class Spaceship extends Floater {
     double getCenterY() {
         return myCenterY;
     }
+    
+    // NEW: Additional getter methods for Bullet class
+    double getXspeed() {
+        return myXspeed;
+    }
+    
+    double getYspeed() {
+        return myYspeed;
+    }
+    
+    double getPointDirection() {
+        return myPointDirection;
+    }
 }
+
